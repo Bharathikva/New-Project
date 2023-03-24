@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Poppins';height: fit-content;}
+
+#loginbg{
+    background: #f5f2ea;
+}
+
+#commonbg{
+    background-color: #fdc886;
+    color: #0000;
+}
+
+.img-responsive{
+    position: absolute;
+    width: 60%;
+}
+
+.card-body{
+    padding: 40px;
+}
+
+#logincard{
+    height: 760px; 
+    text-align: -webkit-center;
+}
+  
+@media screen and (max-width: 768px) {
+
+    .img-responsive{
+        position: absolute;
+        /* width: 100%; */
+        display: none;
+    }
+
+    .card-body{
+        padding: 0px;
+    }
+
+    #logincard{
+        height: 600px; 
+        text-align: -webkit-center;
+    }
+}
+
+
+
+
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1800px)  
+{ 
+    .img-responsive{
+        position: absolute;
+        width: 65%;
+    }
+
+    #logincard{
+        height: 550px; 
+        text-align: -webkit-center;
+    }
+
+    .card-body{
+        padding: 70px;
+    }
+} 
